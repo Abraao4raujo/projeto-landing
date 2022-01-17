@@ -1,0 +1,32 @@
+:root{
+    --color01: #F2CB07;
+    --color02: #F2B705;
+    --color03: #F27D72;
+    --color04: #F20505;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, #F2CB07, #F20505);
+}
+
+img{
+    max-width: 300px;
+    width: 250vw;
+    display: block;
+    margin: auto;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: normal;
+    padding: 30px;
+}
