@@ -24,6 +24,7 @@ div#wallpaper{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    opacity: 90%;
 }
 
 header{
