@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
 :root{
     --color01: #F2CB07;
     --color02: #F2B705;
@@ -15,35 +17,32 @@
     font-size: 1em;
 }
 
-div#wallpaper{
-    background-color: white;
-    background-image: url(imagens/disney-lightning-mcqueen-mcqueen-cars-movie-wallpaper-preview.jpg);
-    padding-bottom: 100vh;
-    display: block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    opacity: 90%;
-}
+
 
 header{
     margin: 0px;
     padding-bottom: 0px;
+    background-image: url(imagens/papel\ de\ parede.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    height: 30vh;
 }
 
-img{
+h1{
+    color: rgb(223, 130, 77);
+    font-size: 4.5em;
+    padding-top: 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+picture > img{
     max-width: 300px;
     width: 32vw;
     display: block;
-    margin: auto;
-}
-
-body{
-    background: linear-gradient(to top, #F2CB07, #F20505);
-    background-attachment: fixed;
-    
-    
     margin: auto;
 }
 
@@ -58,6 +57,7 @@ main{
     padding-bottom: 200px;
     background-color: #F2F2F2;
     font-family: 'Walter Turncoat', cursive;
+    display: inline-block;
 }
 
 p{
@@ -71,4 +71,29 @@ main > h2{
     font-family: 'Walter Turncoat', cursive;
     font-size: 1.5em;
     text-align: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    font-size: 1.5em;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+a:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.308);
+}
+
+div#fora{
+    padding-top: 12vh;
 }
